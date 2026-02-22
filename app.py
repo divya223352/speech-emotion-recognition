@@ -37,8 +37,9 @@ if uploaded_file is not None:
     if st.button("Analyze Emotion"):
         with st.spinner('The AI is listening...'):
             # Convert audio to features and predict
-            features = extract_feature(uploaded_file)
+            features = extract_feature(io.BytesIO(uploaded_file.read()))
             prediction = model.predict(features)
             
             # Show result
+
             st.success(f"### Predicted Emotion: **{prediction[0].upper()}**")
