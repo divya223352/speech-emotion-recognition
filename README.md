@@ -9,6 +9,7 @@ This project uses **MLPClassifier** to detect emotions from audio files.
 2. Install libraries: `pip install librosa soundfile streamlit sklearn`
 3. Run the UI: `python -m streamlit run app.py`
 https://github.com/divya223352/speech-emotion-recognition
+https://speech-emotion-recognition-wvtdgjfsn3rzkcsvv7hhzs.streamlit.app/
 ✨ Features
 🧠 Deep Learning Analysis: Employs Convolutional Neural Networks (CNN) or MLP Classifiers to detect subtle emotional patterns.
 📊 Feature Extraction: Automatically extracts acoustic features like MFCC (Mel-Frequency Cepstral Coefficients), Chroma, and Mel Spectrograms.
